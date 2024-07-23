@@ -1,8 +1,21 @@
-<html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <title>this is new
-  <h1>Hello, universe law!</h1>
-  <p>This is a simple HTML web page.</p>
+<!DOCTYPE htm>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Email Sender<title>
+</head>
+<body>
+    <h1>Send an Email</h1>
+    <form action="sendEmail" method="post">
+        <label for="to">To:</label><br>
+        <input type="email" id="to" name="to" required><br><br>
+
+        <label for="subject">Subject:</label><br>
+        <input type="text" id="subject" name="subject" required><br><br>
+
+        <label for="body">Body:</label><br>
+        <textarea id="body" name="body" rows="10" cols="30" required></textarea><br><br>
+
+        <input type="submit" value="Send Email">
+    </form>
 </body>
-<html>
+</html>
